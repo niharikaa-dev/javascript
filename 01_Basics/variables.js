@@ -10,7 +10,10 @@ var = it can be re-assigned a value and it can also be declared again  (Global s
 const accId = 123123
 let accEmail = "abc@gmail.com"
 var accname = "Niketan"
-
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
 accEmail = "xyz@google.com"
 let accstate;
 
